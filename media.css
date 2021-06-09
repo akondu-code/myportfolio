@@ -1,0 +1,34 @@
+@media (max-width: 1139px) {
+.about{ margin-left: 0;
+}
+}
+
+@media (max-width: 680px) {
+    .left-part {
+        display: none;
+    }
+    .about{
+        margin-left: 0;
+        width: 100% !important;
+    }
+    .about-me {
+        margin-left: 0;
+    }
+    .skills {
+        margin-left: 0;
+        width: 100%;
+    }
+    .myName {
+    font-size: 70px;
+    }
+    .social-links{
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 548px) {
+    .about-me{
+        display: flex;
+        flex-direction: column;
+    }
+}

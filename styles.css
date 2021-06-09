@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     position: fixed; 
+     top: 0;
+     left: 0;
+    height: 100vh;
+     width: 320px; 
+background-color: rgb(186, 186, 247);
+}
+
+.left-part div {
+    height: 80px;
+    width: 250px;
+    margin: 5px;
+    padding: 15px 0;
+}
+
+.pink-text {
+    /* color: rgb(243, 69, 98); */
+    color: rgb(240, 71, 99);
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    margin-bottom: 2px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.white-text {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(148, 141, 141);
+}
+
+#mail {
+    color: black;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+     margin-left: 320px; 
+}
+
+.about-text {
+    width: 530px;
+    background-color: black;
+}
+
+.name {
+    margin-top: 3rem;
+    padding: 4rem 2rem;
+    height: 150px;
+    color: white;
+    font-size: 30px;
+    font-family:'Open Sans', sans-serif;
+}
+.myName {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    color: rgb(240, 71, 99);
+    font-weight: bolder;
+    padding-left: 2rem;
+    /* border-right: 1px solid; */
+    width: 15ch;
+    animation: typing 6s steps(50), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.about-para {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 2rem 2rem;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.social-links {
+    padding: 0.2rem 2rem;
+    word-spacing: 25px;
+}
+
+.social-links a {
+    color: rgb(83, 79, 79);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.about-image {
+    width: 670px;
+    height: 100vh;
+    background: url("img/header.JPG") no-repeat left center/cover;
+    
+ }
+
+ .skills {
+     height: 550px;
+     background-color: black;
+     margin-left: 320px;
+ }
+
+ .about {
+     display: flex;
+     flex-direction: row;
+     border-top: 1px solid white;
+     /* justify-content: center;
+     align-items: center; */
+ }
+ 
+ .about.div {
+     margin: 20px;
+     width: auto;
+ }
+
+ h2 {
+     color: rgb(240, 71, 99);
+     font-size: 45px;
+     font-family: 'Open Sans', sans-serif;
+     margin-top: 4rem;
+     margin-left: 2rem;
+     letter-spacing: 6px;
+ }
+
+ .my-text {
+     width: 750px;
+     color: white;
+     margin-top: 2rem;
+     margin-left: 2rem;
+     line-height: 30px;
+     font-size: 17px;
+     font-family: 'Open Sans', sans-serif;
+     text-align: justify;
+ }
+
+ h3 {
+     color: rgb(240, 71, 99);
+     font-size: 22px;
+     font-family: 'Open Sans', sans-serif;
+     margin-top: 3rem;
+     margin-left: 2rem; 
+     font-weight: lighter;
+     letter-spacing: 8px;
+    }
+
+    .listed-skill {
+        color: rgb(148, 141, 141);
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
+    
+    .span {
+        margin-left: 3rem;
+    }
+
+    .projects {
+        background-color: white;
+        margin-left: 320px;
+    }
+
+    h4 {
+        color: black;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .my-works {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4rem;
+    }
+
+    .work-img {
+        position: relative;
+        width: 500px;
+        height: 250px;
+        background: url("img/birthday-site.png") no-repeat left center/cover;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+        border-radius: 8px;
+        animation: mymove 1.5s 1;
+     }
+
+#img {
+    animation-timing-function: linear;
+}
+     @keyframes mymove {
+        from {left: -20px;}
+        to {left: 20px;}
+      }
+
+     .work-txt {
+         width: 600px;
+         margin-left: 1.5rem;
+     }
+     h5 {
+         color: black;
+         font-family: 'Open Sans', sans-serif;
+         font-size: 25px;
+     }
+
+     .text {
+         margin-top: 1rem;
+         font-size: 18px;
+         line-height: 25px;
+         font-family: 'Open Sans', sans-serif;
+         color: rgb(110, 107, 107);
+     }
+
+     button {
+         margin-top: 1rem;
+         width: 150px;
+  height: 50px;
+  background-color: black;
+  border: 1px solid rgb(240, 71, 99);
+  color: rgb(240, 71, 99);
+  font-size: 20px;
+letter-spacing: 5px; 
+font-family: 'Roboto', serif;    
+border-radius: 8px; 
+}
+
+.work-img2 {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background: url("img/portfolio.png") no-repeat left center/cover;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    animation: mymove2 1.5s 1;
+     }
+
+#img2 {
+    animation-timing-function: linear;
+}
+     @keyframes mymove2 {
+        from {right: -20px;}
+        to {right: 20px;}
+      }
+
+ .work-img3 {
+     position: relative;
+    width: 500px;
+    height: 250px;
+    background: url("img/todo.png") no-repeat left center/cover;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    border-radius: 8px;
+    animation: mymove 1.5s 1;
+ }
+
+ .work-img4 {
+    position: relative;
+   width: 500px;
+   height: 250px;
+   background: url("img/google\ clone.png") no-repeat left center/cover;
+   box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+   border-radius: 8px;
+   border-radius: 8px;
+   animation: mymove 1.5s 1;
+}
+
+#img {
+animation-timing-function: linear;
+}
+ @keyframes mymove {
+    from {left: -20px;}
+    to {left: 20px;}
+  }
+
+  .butt {
+      font-size: 18px;
+      letter-spacing: 0;
+      
+  }
+
+  .resume {
+    margin-left: 2rem;
+    width: 150px;
+height: 40px;
+background-color: transparent;
+border: 1px solid white;
+color: white;
+font-size: 10px; 
+font-family: 'Open Sans',sans-serif;    
+border-radius: 8px; 
+margin-bottom: 0;
+}
